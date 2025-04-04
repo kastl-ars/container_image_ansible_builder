@@ -62,6 +62,7 @@ jobs:
             type=ref,event=tag
             type=ref,event=pr
             type=sha
+            type=raw,value={{date 'YYYYMMDDTHH:mm'}}
 
       # This step uses the `docker/build-push-action` action to build the
       # image, based on your repository's `Dockerfile`. If the build succeeds,
