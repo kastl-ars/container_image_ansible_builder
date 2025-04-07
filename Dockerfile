@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
-FROM registry.opensuse.org/opensuse/tumbleweed:20250331
+FROM registry.opensuse.org/opensuse/tumbleweed:20250405
 
 RUN set -euo pipefail && \
  zypper --non-interactive refresh && \
