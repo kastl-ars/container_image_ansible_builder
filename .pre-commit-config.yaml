@@ -28,3 +28,7 @@ repos:
     rev: v1.25.2
     hooks:
       - id: zizmor
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
